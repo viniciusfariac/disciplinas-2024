@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 10: Cálculo de Salário</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 10: Cálculo de Salário
+    Descrição: Elabore um programa que leia a quantidade de dias trabalhados por um funcionário e o valor da diária. Calcule e informe o salário total do funcionário.
+    Requisitos do Programa:
+    1. Solicitar ao usuário a quantidade de dias trabalhados.
+    2. Solicitar ao usuário o valor da diária.
+    3. Calcular o salário total multiplicando a quantidade de dias pelo valor da diária.
+    4. Exibir o salário total.
+
+    Exemplo: 
+    Dias Trabalhados: 20
+    Valor da Diária: R$ 80.00
+    Salário Total: R$ 1600.00
+    -->
+    <script>
+        let qdias = parseFloat(prompt("Digite a quantidade de dias trabalhados: "))
+        let diaria = parseFloat(prompt("Digite o valor da diária: "))
+        let salariototal = (qdias*diaria).toFixed(2);
+        document.write ("Dias trabalhados: "+qdias +"<br>")
+        document.write ("Valor da Diária: "+diaria +"<br>")
+        document.write ("Salário Total: "+salariototal)
+    </script>
+    <!--
+        Primeiro solicitei os dias trabalhados e o valor da diária, depois multipliquei esses 2 valores e coloquei .tofixed(2) para habilitar as casas decimais
+    -->
+  </body>
+</html>

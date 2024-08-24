@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 3: Dividir Conta em Pizzaria</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 3: Dividir Conta em Pizzaria
+    Descrição: Elabore um programa para uma pizzaria que leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.
+    Requisitos do Programa:
+    1. Solicitar ao usuário o valor total da conta.
+    2. Solicitar ao usuário o número de clientes.
+    3. Calcular o valor a ser pago por cliente dividindo o valor total da conta pelo número de clientes.
+    4. Exibir o valor a ser pago por cliente formatado com duas casas decimais.
+
+    Exemplo: 
+    Valor da Conta: R$ 150.00
+    Número de Clientes: 5
+    Valor por cliente: R$ 30.00
+    -->
+    <script>
+        let vtotal = parseFloat(prompt("Digite o valor total da conta: "));
+        let clientes = parseFloat(prompt("Digite o número de clientes: "));
+        let vcliente = (vtotal/clientes).toFixed(2);
+        document.write ("Valor da conta: "+ vtotal +"<br>");
+        document.write ("Número de clientes: "+ clientes +"<br>");
+        document.write ("Valor por cliente: "+ vcliente);
+    </script>
+
+    <!--
+        Pedi para o usuario digitar o valor total, depois pedi para o usario digitar a quantidade de clientes e dividi o valor total pelo valor de clientes.
+    -->
+
+  </body>
+  
+</html>

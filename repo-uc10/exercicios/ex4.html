@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 4: Média de Notas</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 4: Média de Notas
+    Descrição: Elabore um programa que leia 2 notas de um aluno em uma disciplina. Calcule e informe a média das notas.
+    Requisitos do Programa:
+    1. Solicitar ao usuário duas notas.
+    2. Calcular a média das notas.
+    3. Exibir a média das notas formatada com duas casas decimais.
+
+    Exemplo: 
+    1ª Nota: 6.5
+    2ª Nota: 9.0
+    Média: 7.75
+    -->
+
+    <script>
+        let nota1 = parseFloat(prompt("Digite a primeira nota: "));
+        let nota2 = parseFloat(prompt("Digite a segunda nota: "));
+        let media = ((nota1+nota2)/2).toFixed(2);
+        document.write ("1° Nota: "+nota1 +"<br>")
+        document.write ("2° Nota: "+nota2 +"<br>")
+        document.write ("media: "+media)
+    </script>
+    <!--
+        Pedi das duas notas para o usuario, e logo depois somei essas notas e dividi por dois.
+    -->
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 18: Opções de Pagamento em Loja</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 18: Opções de Pagamento em Loja
+    Descrição: Elabore um programa para uma loja que leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x sem juros.
+    Requisitos do Programa:
+    1. Solicitar ao usuário o preço do produto.
+    2. Calcular o valor com 10% de desconto para pagamento à vista.
+    3. Calcular o valor da parcela para pagamento em 3x sem juros.
+    4. Exibir os valores das duas opções.
+
+    Exemplo: 
+    Preço: R$ 120.00
+    À Vista: R$ 108.00
+    Ou 3x de: R$ 40.00
+    -->
+    <script>
+        let preco = parseFloat(prompt("Digite o preço do produto: "))
+        let desconto = (preco/100)*(10).toFixed(2)
+        let vista = (preco-desconto).toFixed(2)
+        let parcela = (preco/3).toFixed(2)
+        document.write ("Á vista: "+vista+"<br>")
+        document.write ("ou 3x de: "+parcela)
+    </script>
+    <!--
+        Pedi o preço do produto, com isso pensei primeiro no valor á vista, fiz o preço do produto divido por 100 e multipliquei por 10( que é a porcentagem de desconto ), com isso peguei o valor do desconto e subtrai pelo preço. Para saber a parcela eu dividi o preço do produto por 3
+    -->
+  </body>
+</html>

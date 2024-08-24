@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 15: Rendimento de Depósito</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 15: Rendimento de Depósito
+    Descrição: Elabore um programa que leia o valor de um depósito e a taxa de juros anual. Calcule e informe o valor do rendimento e o valor total após o rendimento.
+    Requisitos do Programa:
+    1. Solicitar ao usuário o valor do depósito.
+    2. Solicitar ao usuário a taxa de juros anual.
+    3. Calcular o valor do rendimento.
+    4. Calcular o valor total após o rendimento.
+    5. Exibir o valor do rendimento e o valor total após o rendimento.
+
+    Exemplo: 
+    Valor do Depósito: R$ 1000.00
+    Taxa de Juros: 5%
+    Rendimento: R$ 50.00
+    Valor Total: R$ 1050.00
+    -->
+    <script>
+        let vdepo = parseFloat(prompt("Digite o valor do depósito: "))
+        let taxajanual = parseFloat(prompt("Digite o valor do juros anual: "))
+        let rendimento = (vdepo/100)*taxajanual;
+        let vtotal = rendimento+vdepo;
+        document.write ("Rendimento: "+rendimento+"<br>")
+        document.write ("Valor total: "+vtotal)
+    </script>
+    <!--
+        fiz o depositivo divido por 100 para pegar 1%do juros e depois multipliquei o valor pela taxa anual, com isso descobri o valor do rendimento, e para descobrir o valor total somei o valor depositado + o valor do rendimento
+    -->
+  </body>
+</html>

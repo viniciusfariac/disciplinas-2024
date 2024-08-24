@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 6: Verificador de Maioridade</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 6: Verificador de Maioridade
+    Descrição: Crie um programa que verifique se o usuário é maior de idade (18 anos ou mais).
+    Requisitos do Programa:
+    1. Solicitar ao usuário a sua idade.
+    2. Verificar se o usuário é maior de idade.
+    3. Exibir uma mensagem indicando se o usuário é maior de idade ou não.
+
+    Exemplo: 
+    Digite a sua idade: 20
+    Você é maior de idade.
+    -->
+
+    <script>
+        let idade = parseFloat(prompt("Digite sua idade: "))
+        if (idade>=18){
+            document.write ("Você é maior de idade")
+        }
+        else {
+            document.write ("Você é menos de idade")
+        }
+    </script>
+    <!--
+        Primeiro eu pedi para o usuario me informar sua idade, depois coloquei um if falando que se o valor digitado for maior ou igual á 18, a pessoa é maior de idade e caso não for maior que 18 é menor de idade.
+    -->
+  </body>
+</html>

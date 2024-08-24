@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 20: Preço com Imposto</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 20: Preço com Imposto
+    Descrição: Elabore um programa que leia o preço de um produto e a porcentagem de imposto. Calcule e informe o valor do imposto e o preço final do produto com o imposto.
+    Requisitos do Programa:
+    1. Solicitar ao usuário o preço do produto.
+    2. Solicitar ao usuário a porcentagem de imposto.
+    3. Calcular o valor do imposto.
+    4. Calcular o preço final do produto somando o preço inicial e o valor do imposto.
+    5. Exibir o valor do imposto e o preço final do produto.
+
+    Exemplo: 
+    Preço do Produto: R$ 150.00
+    Porcentagem de Imposto: 8%
+    Valor do Imposto: R$ 12.00
+    Preço Final: R$ 162.00
+    -->
+    <script>
+        let produto = parseFloat(prompt("Digite o valor do produto: "))
+        let imposto = parseFloat(prompt("Digite a porcentagem do imposto: "))
+        let vimposto = (produto/100)*imposto
+        let vtotal = (produto+vimposto);
+        document.write("Preço final: R$"+vtotal)
+    </script>
+    <!--
+        Peguei o valor do produto e dividi por 100 e multipliquei pelo valor do imposto, com isso somei o valor do produto e o resultado do valor do imposto, assim chegando no valor total.
+    -->
+  </body>
+</html>

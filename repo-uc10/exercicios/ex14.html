@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 14: Conversor de Minutos para Horas e Minutos</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 14: Conversor de Minutos para Horas e Minutos
+    Descrição: Crie um programa que converta uma quantidade de minutos fornecida pelo usuário em horas e minutos.
+    Requisitos do Programa:
+     1. Solicitar ao usuário uma quantidade de minutos.
+    2. Converter a quantidade de minutos em horas e minutos.
+    3. Exibir o resultado no formato "X horas e Y minutos".
+
+    Exemplo: 
+    Digite a quantidade de minutos: 130
+    Isso é igual a 2 horas e 10 minutos.
+    -->
+    <script>
+        let min = parseFloat(prompt("Digite a quantidade de minutos desejada: "))
+        let hora = (min/60).toFixed(0);
+        let hmin = (min%60);
+        document.write ("Isso é igual a: "+hora+" horas e "+hmin +" minutos.")
+    </script>
+    <!--
+        dividi a quantidade de minutos por 60 porque ai temos as horas, porém usei o ".toFixed(0)" para não ter casas decimais, com isso para descobrir os minutos é so colocar para pegar o resto.
+    -->
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 13: Conversão de Temperatura</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 13: Conversão de Temperatura
+    Descrição: Elabore um programa que leia a temperatura em graus Fahrenheit e a converta para graus Celsius. A fórmula de conversão é: C=(F−32)×5/9.
+    Requisitos do Programa:
+    1. Solicitar ao usuário a temperatura em graus Fahrenheit.
+    2. Calcular a temperatura em graus Celsius usando a fórmula.
+    3. Exibir a temperatura em graus Celsius.
+
+    Exemplo: 
+    Temperatura em Fahrenheit: 77
+    Temperatura em Celsius: 25
+    -->
+    <script>
+      let f = parseFloat(prompt("Digite o valor em fahrenheit: "))
+      let celsius = ((f-32)*5/9);
+      document.write("Temperatura em Celsius: "+celsius)
+    </script>
+    <!--
+      Pedi o valor em fahrenheit, depois eu converti esse valor com a formula "(f-32)*5/9".
+    -->
+  </body>
+</html>

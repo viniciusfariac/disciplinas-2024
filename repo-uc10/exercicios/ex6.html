@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 5: Verificador de Par ou Ímpar</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 5: Verificador de Par ou Ímpar
+    Descrição: Crie um programa que solicite ao usuário um número e verifique se ele é par ou ímpar.
+    Requisitos do Programa:
+    1. Solicitar ao usuário um número.
+    2. Verificar se o número é par ou ímpar.
+    3. Exibir uma mensagem indicando se o número é par ou ímpar.
+
+    Exemplo: 
+    Digite um número: 4
+    O número é par.
+    -->
+    <script>
+        let num = parseFloat(prompt("Digite um número "));
+        let resto = num%2;
+        if (resto == 0){
+            document.write ("Par")
+        }
+        else {
+            document.write ("Impar")
+        }
+    </script>
+    <!--
+        Pedi para o usuario digitar um número, logo em seguida o programa irá pegar o resto do numero(%), usei o if para falar que caso o valor(resto) for 0 o número é par e usei o else para falar que caso não for 0 é impar.
+    -->
+  </body>
+</html>

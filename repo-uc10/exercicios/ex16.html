@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 16: Consumo Médio de Combustível</title>
+  </head>
+  <body>
+    <!-- 
+    Exercício 16: Consumo Médio de Combustível
+    Descrição: Elabore um programa que leia a distância em quilômetros percorrida por um carro e o consumo de combustível em litros. Calcule e informe o consumo médio em km/l.
+    Requisitos do Programa:
+    1. Solicitar ao usuário a distância percorrida em quilômetros.
+    2. Solicitar ao usuário o consumo de combustível em litros.
+    3. Calcular o consumo médio dividindo a distância pelo consumo de combustível.
+    4. Exibir o consumo médio em km/l.
+
+    Exemplo: 
+    Distância Percorrida: 300 km
+    Combustível Consumido: 20 L
+    Consumo Médio: 15 km/L
+    -->
+    <script>
+        let km = parseFloat(prompt("Digite a distância percorrida em quilômetros: "))
+        let l = parseFloat(prompt("Digite o comustível consumido: "))
+        let consumo = (km/l).toFixed(0)
+        document.write ("O consumo médio: "+consumo+" km/L")
+    </script>
+    <!--
+        Dividi o valor dos quilometros percorrido e o valor do combustivel consumido, coloquei tofixed(0) para não ter casas decimais.
+    -->
+  </body>
+</html>
