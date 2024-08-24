@@ -1,0 +1,93 @@
+*{
+	
+	margin:0;
+	padding:0;
+	border: 1;
+	text-decoration:none;
+	
+}
+body{
+	
+	background-color: #dddddd;
+	
+}
+.fundo{
+	
+	background-color: white;
+	margin: 70px;
+	padding: 30px;
+	
+}
+header{
+	
+	text-align: center;
+}
+h1{
+	
+	padding:10px;
+	
+}
+h4{
+	
+	padding: 10px;
+	
+}
+.silvio1{
+	
+	width: 892px;
+	height: 570px;
+	
+}
+main{
+	
+	
+}
+#texto1{
+	
+	margin: 0px 30px 0px 30px;
+	text-align: justify;
+	
+	
+}
+#box1{
+	
+	background-color: #dddddd;
+	width: 1264px;
+	height: 50px;
+	padding: 40px;
+	margin: 0px 30px 0px 30px;
+	
+}
+#dinheiro{
+	
+	margin: 0px 0px 0px 30px;
+	
+}
+.curiosidades{
+	
+	margin: 0 0 0 30px;
+	
+}
+.curiosidades li{
+	
+	margin: 0 0 0 35px;
+	padding: 3px;
+	
+}
+.silvio2{
+	
+	margin: auto;
+	text-align: center;
+	width: 540px;
+	height: 370;
+	
+}
+.centro{
+
+	text-align: center;
+	margin: 0 0 10px 0;
+	
+}
+footer{
+	
+}

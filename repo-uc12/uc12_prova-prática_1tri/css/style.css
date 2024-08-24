@@ -1,0 +1,123 @@
+/*reset*/
+*{
+	
+	padding:0;
+	border:none;
+	margin:0;
+	
+}
+/*corpo do site*/
+body{
+	
+	width: 100%;
+	background-color: #dddddd;
+	font-family: sans-serif;
+}
+/*caixa branca*/
+.fundo{
+	
+	width: 90%;
+	background-color: #fff;
+	margin: 40px auto;
+	
+}
+/*cabeçalho*/
+header{
+	
+	margin: 20px 40px;
+	text-align: center;
+	padding: 20px;
+	
+}
+/*cabeçalho div*/
+.cabecalho{
+	
+	border-bottom: dotted 1px #ddd;
+	padding-bottom: 20px;
+}
+/*titulo principal*/
+h1{
+	
+	text-align: center;
+	padding: 20px;
+	
+}
+/*informações principais*/
+main{
+	
+	margin: 0px 40px;
+	text-align: justify;
+	padding-left: 20px;
+	
+}
+#sobre{
+	
+	padding-bottom: 20px;
+	border-bottom: dotted 1px #ddd;
+	
+}
+#sobre, h2, p{
+	
+	padding-bottom: 20px;
+	
+}
+.box1{
+	
+	border-bottom: dotted 1px #ddd;
+	
+}
+#box{
+	
+	width: 100%;
+	background-color: #ddd;
+	margin: 40px 0;
+	
+}
+#boxh2{
+	
+	font-size: 35px;
+	padding-left: 60px; 
+	padding-right: 60px; 
+	
+}
+#boxblock{
+	
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+#box, h2, blockquote{
+	
+	padding: 20px 0;
+	
+}
+.curiosidades{
+	
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: dotted 1px #ddd;
+}
+ul{
+	
+	padding-left: 40px;
+	
+}
+li{
+	
+	padding-bottom: 10px;
+	
+}
+.center{
+	
+	text-align: center;
+	
+}
+/*rodapé*/
+footer{
+	
+	margin: 0px 40px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	
+}

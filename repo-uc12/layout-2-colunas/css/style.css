@@ -1,0 +1,78 @@
+/**Arquivo de folha de Estilos **/ 
+
+/**Reset**/
+*{
+	
+	margin:0;
+	padding:0;
+	
+} 
+/**Body **/ 
+body{
+
+	font-family: sans-serif;
+	font-size: 16px;
+	
+	
+}
+/**Cabeçalho**/
+header{
+	
+	text-align: center;
+	color: white;
+	background-color: #C2C2C2;
+	padding:20px;
+	
+}
+.box1{
+	
+	border: solid 1px black;
+	width: 250px;
+	margin: 0px 0px 0px 150px;
+	padding: 20px;
+	float: left;
+	
+}
+ul{
+	
+	margin: 20px 0px 0px 30px;
+	
+}
+a{
+	
+	color: blue;
+}
+a:hover{
+	
+	color: black;
+	
+}
+#box{
+	
+	border: solid 1px black;
+	width: 750px;
+	height: 100px;
+	margin: 20px 0px 0px 500px;
+	padding: 10px;
+	
+}
+#boxtitulo{
+	
+	margin: 10px 0px 20px 0px;
+		
+}
+footer{
+	
+	bottom: 0px;
+	position:fixed;
+	background-color: #C2C2C2;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+.acabou{
+	
+	
+	
+}
