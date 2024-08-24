@@ -1,0 +1,3 @@
+com.example.aula_17.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

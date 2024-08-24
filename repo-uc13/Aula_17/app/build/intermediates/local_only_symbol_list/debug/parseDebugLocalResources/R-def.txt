@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id TxtView1
+id TxtView2
+id TxtView3
+id TxtView4
+id TxtView5
+id btn_calcula
+id main
+id plaintxtvalor1
+id plaintxtvalor2
+id textDiv
+id textMult
+id textResto
+id textSoma
+id textSub
+id textView
+id textView7
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Aula_17
+style Theme.Aula_17
+xml backup_rules
+xml data_extraction_rules
