@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;/* este atributo altera a fonte da familia arial, sans-serif*/    
+    margin: 0; /* este atributo altera a margin do site*/
+    padding: 0; /* este atributo altera o espaçamento da borda*/
+    background-color: #f0f0f0; /* este atributo altera a cor do fundo*/
+    box-sizing: border-box; /* este atributo adiciona ou não mais borda*/
+}
+.container{
+    width: 90%; /* este atributo altera o tamanho do container */
+    margin: 0 auto; /*este atributo altera a distancia entre os elementos do site, centralizando-os*/
+    background-color: #fff; /*este atributo altera o fundo do container*/
+    padding: 20px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /*este atributo adiciona uma sombra para o elemento*/
+    border-radius: 8px; /*este atributo deixa a borda mais arredondada*/
+}
+.box{
+    border: 1px solid #ddd; /*este atributo adiciona uma borda*/
+    border-radius: 8px; /*este atributo deixa a borda mais arredondada*/
+    padding: 20px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    margin: 20px 0; /* este atributo altera a margin do site*/
+    background-color: #fafafa; /*este atributo altera o fundo da box*/
+}
+figure{
+    margin: 0;
+}
+caption{
+    color: black;
+    margin: 0 0 5px 0;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+table  td {
+    border: 1px solid #ddd;
+    width: 700px;
+    height: 30px;
+    padding: 5px;
+   
+}
+table th{
+    width: 900px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    height: 30px;
+    padding: 5px;
+}

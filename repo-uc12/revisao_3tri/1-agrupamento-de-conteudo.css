@@ -1,0 +1,123 @@
+/* corpo do texto */
+body{  
+    font-family: Arial, sans-serif;/* este atributo altera a fonte da familia arial, sans-serif*/    
+    margin: 0; /* este atributo altera a margin do site*/
+    padding: 0; /* este atributo altera o espaçamento da borda*/
+    background-color: #f0f0f0; /* este atributo altera a cor do fundo*/
+    box-sizing: border-box; /* este atributo adiciona ou não mais borda*/
+}
+/* */
+.container{
+    width: 90%; /* este atributo altera o tamanho do container */
+    margin: 0 auto; /*este atributo altera a distancia entre os elementos do site, centralizando-os*/
+    background-color: #fff; /*este atributo altera o fundo do container*/
+    padding: 20px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /*este atributo adiciona uma sombra para o elemento*/
+    border-radius: 8px; /*este atributo deixa a borda mais arredondada*/
+}
+.box{
+    border: 1px solid #ddd; /*este atributo adiciona uma borda*/
+    border-radius: 8px; /*este atributo deixa a borda mais arredondada*/
+    padding: 20px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    margin: 20px 0; /* este atributo altera a margin do site*/
+    background-color: #fafafa; /*este atributo altera o fundo da box*/
+}
+ul,ol{
+    padding-left: 20px; /*este atributo altera o espaçamento da borda e dos elemtos*, mas apenas o lado esquerdo */
+}
+.vertical-list{
+    padding-left: 0; /*este atributo altera o espaçamento da borda e dos elemtos*, mas apenas o lado esquerdo */
+    list-style-type: none; /*este atributo adiciona ou retira um tipo de estilo*/
+}
+.vertical-list li{
+    display: flex; /*este atributo deixa os elementos de dentro flexiveis */
+    align-items: center; /*este atributo alinha o item do elemento*/
+    margin-bottom: 10px; /*este atributo altera a distancia entre os elementos, mas apenas o lado de vaixo*/
+}
+.vertical-list li i{
+    margin-right: 10px; /*este atributo altera a distancia entre os elementos, mas apenas o lado direito*/
+}
+.horizontal-list{
+    list-style-type: none; /*este atributo alinha o item do elemento*/
+    padding-left: 0; /*este atributo altera o espaçamento da borda e dos elemtos*, mas apenas o lado esquerdo */
+    display: flex; /*este atributo deixa os elementos de dentro flexiveis*/
+    gap: 20px; /*este atributo altera o espaço entre os elementos, deixando eles com o mesmo espaçamento*/
+}
+.horizontal-list li{
+    margin-right: 10px; /*este atributo altera a distancia entre os elementos, mas apenas o lado direito*/
+}
+figure{
+    margin: 0;
+}
+figcaption{
+    color: #666;
+    font-size: 0.9rem;
+}
+.two-columns{
+    display: flex; /*este atributo deixa os elementos de dentro flexiveis*/
+    justify-content: space-between; /*este atributo justifica o elemento, deixando o espaço igual entre os elementos nesse caso*/
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.group > *{
+    flex: 1 1 calc(33.333%-20px);
+}
+.accordion{
+    border: 1px solid #000;
+    border: 8px;
+}
+.accordion summary{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+.accordion p{
+    padding: 10px;
+    margin: 0;
+}
+.tab-container{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.tab-container ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+.tab-container li{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-right: 1px solid #ddd; 
+}
+.tab-container li:last-child {
+    border-right: none;
+}
+.tab-container .tab-content {
+    padding: 20px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-body {
+    padding: 15px;
+}

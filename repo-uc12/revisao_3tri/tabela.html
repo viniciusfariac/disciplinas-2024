@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="HTML, tabelas, 2024" />
+  <meta name="description" content="Exemplo de uso de tabelas em HTML em 2024" />
+  <link rel="stylesheet" href="4-tabelas.css" />
+  <title>Tabelas em HTML</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tabelas em HTML</h1>
+
+    <!-- Tabela Simples -->
+    <div class="box">
+      <h2>Tabela Simples</h2>
+      <table>
+        <caption>
+          Tabela Simples
+        </caption>
+        <thead>
+          <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dados 1</td>
+            <td>Dados 2</td>
+          </tr>
+          <tr>
+            <td>Dados 3</td>
+            <td>Dados 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tabela com Rodapé -->
+    <div class="box">
+      <h2>Tabela com Rodapé</h2>
+      <table>
+        <caption>
+          Tabela com Rodapé
+        </caption>
+        <thead>
+          <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dados 1</td>
+            <td>Dados 2</td>
+          </tr>
+          <tr>
+            <td>Dados 3</td>
+            <td>Dados 4</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Rodapé 1</td>
+            <td>Rodapé 2</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <!-- Tabela com Agrupamento de Colunas -->
+    <div class="box">
+      <h2>Tabela com Agrupamento de Colunas</h2>
+      <table>
+        <caption>
+          Tabela com Agrupamento de Colunas
+        </caption>
+        <colgroup>
+          <col span="1" />
+          <col span="1" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dados 1</td>
+            <td>Dados 2</td>
+          </tr>
+          <tr>
+            <td>Dados 3</td>
+            <td>Dados 4</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Rodapé 1</td>
+            <td>Rodapé 2</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <!-- Tabela com Agrupamento de Linhas -->
+    <div class="box">
+      <h2>Tabela com Agrupamento de Linhas</h2>
+      <table>
+        <caption>
+          Tabela com Agrupamento de Linhas
+        </caption>
+        <thead>
+          <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="2">Agrupamento 1</th>
+            <td>Dados 1</td>
+          </tr>
+          <tr>
+            <td>Dados 2</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Agrupamento 2</th>
+            <td>Dados 3</td>
+          </tr>
+          <tr>
+            <td>Dados 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tabela com Mesclagem de Células -->
+    <div class="box">
+      <h2>Tabela com Mesclagem de Células</h2>
+      <table>
+        <caption>
+          Tabela com Mesclagem de Células
+        </caption>
+        <thead>
+          <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+            <th>Coluna 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Dados 1</td>
+            <td>Dados 2</td>
+            <td>Dados 3</td>
+          </tr>
+          <tr>
+            <td colspan="2">Dados 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tabela com Estilo Destacado -->
+    <div class="box">
+      <h2>Tabela com Estilo Destacado</h2>
+      <table>
+        <caption>
+          Tabela com Estilo Destacado
+        </caption>
+        <thead>
+          <tr class="highlight">
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dados 1</td>
+            <td>Dados 2</td>
+          </tr>
+          <tr>
+            <td>Dados 3</td>
+            <td>Dados 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tabela de Comparação -->
+    <div class="box">
+      <h2>Tabela de Comparação</h2>
+      <table>
+        <caption>
+          Tabela de Comparação
+        </caption>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Disponibilidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Produto 1</td>
+            <td>R$ 100,00</td>
+            <td>Disponível</td>
+          </tr>
+          <tr>
+            <td>Produto 2</td>
+            <td>R$ 200,00</td>
+            <td>Esgotado</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tabela com Dados de Contato -->
+    <div class="box">
+      <h2>Tabela com Dados de Contato</h2>
+      <table>
+        <caption>
+          Tabela com Dados de Contato
+        </caption>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maria</td>
+            <td>maria@example.com</td>
+            <td>(11) 99999-9999</td>
+          </tr>
+          <tr>
+            <td>João</td>
+            <td>joao@example.com</td>
+            <td>(21) 88888-8888</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tabela de Resultados -->
+    <div class="box">
+      <h2>Tabela de Resultados</h2>
+      <table>
+        <caption>
+          Tabela de Resultados
+        </caption>
+        <thead>
+          <tr>
+            <th>Posição</th>
+            <th>Nome</th>
+            <th>Pontos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1º</td>
+            <td>Lucas</td>
+            <td>98</td>
+          </tr>
+          <tr>
+            <td>2º</td>
+            <td>Ana</td>
+            <td>95</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tabela de Classificação da Última Copa do Mundo -->
+    <div class="box">
+      <h2>Tabela de Classificação da Última Copa do Mundo</h2>
+      <table>
+        <caption>
+          Tabela de Classificação da Copa do Mundo
+        </caption>
+        <thead>
+          <tr>
+            <th>Posição</th>
+            <th>Seleção</th>
+            <th>Qtde de Jogos</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Gols Pró</th>
+            <th>Gols Contra</th>
+            <th>Saldo de Gols</th>
+            <th>Pontos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>França</td>
+            <td>7</td>
+            <td>5</td>
+            <td>1</td>
+            <td>1</td>
+            <td>14</td>
+            <td>6</td>
+            <td>8</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Croácia</td>
+            <td>7</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td>12</td>
+            <td>9</td>
+            <td>3</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bélgica</td>
+            <td>7</td>
+            <td>6</td>
+            <td>0</td>
+            <td>1</td>
+            <td>16</td>
+            <td>6</td>
+            <td>10</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Inglaterra</td>
+            <td>7</td>
+            <td>3</td>
+            <td>1</td>
+            <td>3</td>
+            <td>12</td>
+            <td>8</td>
+            <td>4</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

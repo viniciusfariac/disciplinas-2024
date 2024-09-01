@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, agrupamento, 2024">
+    <meta name="description" content="Exemplo de agrupamento de conteúdo usando HTML em 2024">
+    <link rel="stylesheet" href="1-agrupamento-de-conteudo.css">
+    <title>Agrupamento de Conteúdo</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Agrupamento de Conteúdo</h1>
+
+        <!-- Seção de Conteúdo -->
+        <section class="box">
+            <h2>Seção de Conteúdo</h2>
+            <div class="two-columns">
+                <div class="column">
+                    <p>Este é um exemplo de agrupamento de conteúdo usando a tag <code>&lt;section&gt;</code> para
+                        agrupar artigos.</p>
+                    <article>
+                        <h3>Artigo 1</h3>
+                        <p>Conteúdo do artigo 1...</p>
+                    </article>
+                    <article>
+                        <h3>Artigo 2</h3>
+                        <p>Conteúdo do artigo 2...</p>
+                    </article>
+                </div>
+                <div class="column">
+                    <aside>
+                        <h3>Informações Adicionais</h3>
+                        <p>Conteúdo adicional ou tangencial usando a tag <code>&lt;aside&gt;</code>.</p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divs e Spans -->
+        <div class="box">
+            <h2>Divs e Spans</h2>
+            <div class="highlight">Este é um texto destacado usando a tag <code>&lt;span&gt;</code>.</div>
+            <div class="two-columns">
+                <div class="column">
+                    <p>Conteúdo dentro de uma <code>&lt;div&gt;</code>...</p>
+                    <p>Mais conteúdo...</p>
+                </div>
+                <div class="column">
+                    <p>Conteúdo dentro de outra <code>&lt;div&gt;</code>...</p>
+                    <p>Mais conteúdo...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Figure e Figcaption -->
+        <figure class="box">
+            <img src="https://placehold.co/600x400" alt="Exemplo de imagem" style="width:100%;">
+            <figcaption>Legenda da imagem usando a tag <code>&lt;figcaption&gt;</code>.</figcaption>
+        </figure>
+
+        <!-- Agrupamento com Flexbox -->
+        <div class="box">
+            <h2>Agrupamento com Flexbox</h2>
+            <div class="group">
+                <div>Item 1</div>
+                <div>Item 2</div>
+                <div>Item 3</div>
+                <div>Item 4</div>
+                <div>Item 5</div>
+                <div>Item 6</div>
+            </div>
+        </div>
+
+        <!-- Accordion com Details e Summary -->
+        <div class="accordion box">
+            <h2>Accordion com Details e Summary</h2>
+            <details>
+                <summary>Seção 1</summary>
+                <p>Conteúdo da seção 1...</p>
+            </details>
+            <details>
+                <summary>Seção 2</summary>
+                <p>Conteúdo da seção 2...</p>
+            </details>
+            <details>
+                <summary>Seção 3</summary>
+                <p>Conteúdo da seção 3...</p>
+            </details>
+        </div>
+
+        <!-- Tabs com Listas e Conteúdo -->
+        <div class="tab-container box">
+            <h2>Tabs com Listas e Conteúdo</h2>
+            <ul>
+                <li onclick="openTab(event, 'tab1')">Tab 1</li>
+                <li onclick="openTab(event, 'tab2')">Tab 2</li>
+                <li onclick="openTab(event, 'tab3')">Tab 3</li>
+            </ul>
+            <div id="tab1" class="tab-content">
+                <p>Conteúdo da Tab 1...</p>
+            </div>
+            <div id="tab2" class="tab-content" style="display:none;">
+                <p>Conteúdo da Tab 2...</p>
+            </div>
+            <div id="tab3" class="tab-content" style="display:none;">
+                <p>Conteúdo da Tab 3...</p>
+            </div>
+        </div>
+
+        <!-- Cards com Imagens -->
+        <div class="card-container box">
+            <h2>Cards com Imagens</h2>
+            <div class="card">
+                <img src="https://placehold.co/300x200" alt="Imagem de exemplo 1">
+                <div class="card-body">
+                    <h3>Card 1</h3>
+                    <p>Descrição do card 1...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://placehold.co/300x200" alt="Imagem de exemplo 2">
+                <div class="card-body">
+                    <h3>Card 2</h3>
+                    <p>Descrição do card 2...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://placehold.co/300x200" alt="Imagem de exemplo 3">
+                <div class="card-body">
+                    <h3>Card 3</h3>
+                    <p>Descrição do card 3...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="1-agrupamento-de-conteudo.js"></script>
+  </body>
+</html>

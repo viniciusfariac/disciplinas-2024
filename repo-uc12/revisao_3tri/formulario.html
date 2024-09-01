@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="HTML, formulários, 2024" />
+  <meta name="description" content="Exemplo de uso de formulários em HTML em 2024" />
+  <link rel="stylesheet" href="5-formularios.css" />
+  <title>Formulários em HTML</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Formulários em HTML</h1>
+
+    <!-- Formulário Simples -->
+    <div class="box">
+      <h2>Formulário Simples</h2>
+      <form>
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+          <label for="sexo">Sexo:</label>
+          <select id="sexo" name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+          </select>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Formulário com Campos Adicionais -->
+    <div class="box">
+      <h2>Formulário com Campos Adicionais</h2>
+      <form>
+        <fieldset>
+          <legend>Outras Informações</legend>
+          <label for="nascimento">Data de Nascimento:</label>
+          <input type="date" id="nascimento" name="nascimento" />
+          <label for="arquivo">Enviar Arquivo:</label>
+          <input type="file" id="arquivo" name="arquivo" />
+          <label for="cor">Escolha uma cor:</label>
+          <input type="color" id="cor" name="cor" />
+          <label for="numero">Número Favorito:</label>
+          <input type="number" id="numero" name="numero" />
+          <label for="range">Escolha um valor:</label>
+          <input type="range" id="range" name="range" />
+          <label for="pesquisa">Pesquisar:</label>
+          <input type="search" id="pesquisa" name="pesquisa" />
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Formulário com Radios e Checkboxes -->
+    <div class="box">
+      <h2>Formulário com Radios e Checkboxes</h2>
+      <form>
+        <fieldset>
+          <legend>Preferências</legend>
+          <p>Escolha suas opções favoritas:</p>
+          <label for="opcao1">
+            <input type="checkbox" id="opcao1" name="opcao1" value="opcao1" />
+            Opção 1
+          </label>
+          <label for="opcao2">
+            <input type="checkbox" id="opcao2" name="opcao2" value="opcao2" />
+            Opção 2
+          </label>
+          <label for="opcao3">
+            <input type="checkbox" id="opcao3" name="opcao3" value="opcao3" />
+            Opção 3
+          </label>
+          <p>Escolha um item:</p>
+          <label for="item1">
+            <input type="radio" id="item1" name="item" value="item1" /> Item 1
+          </label>
+          <label for="item2">
+            <input type="radio" id="item2" name="item" value="item2" /> Item 2
+          </label>
+          <label for="item3">
+            <input type="radio" id="item3" name="item" value="item3" /> Item 3
+          </label>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Formulário com Datalist e Output -->
+    <div class="box">
+      <h2>Formulário com Datalist e Output</h2>
+      <form>
+        <fieldset>
+          <legend>Escolhas e Resultados</legend>
+          <label for="datalist">Escolha uma opção:</label>
+          <input list="opcoes" id="datalist" name="datalist" />
+          <datalist id="opcoes">
+            <option value="Opção 1"></option>
+            <option value="Opção 2"></option>
+            <option value="Opção 3"></option>
+          </datalist>
+
+          <output name="resultado" for="numero range">Resultado</output>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Formulário com Medidores e Progresso -->
+    <div class="box">
+      <h2>Formulário com Medidores e Progresso</h2>
+      <form>
+        <fieldset>
+          <legend>Progresso e Medidores</legend>
+          <label for="progresso">Progresso:</label>
+          <progress id="progresso" value="70" max="100">70%</progress>
+          <label for="medidor">Medidor:</label>
+          <meter id="medidor" value="2" min="0" max="10">2 de 10</meter>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Formulário em Duas Colunas -->
+    <div class="box">
+      <h2>Formulário em Duas Colunas</h2>
+      <form>
+        <fieldset>
+          <legend>Informações Detalhadas</legend>
+          <div class="two-columns">
+            <div class="column">
+              <label for="primeiro-nome">Primeiro Nome:</label>
+              <input type="text" id="primeiro-nome" name="primeiro-nome" />
+              <label for="sobrenome">Sobrenome:</label>
+              <input type="text" id="sobrenome" name="sobrenome" />
+              <label for="endereco">Endereço:</label>
+              <input type="text" id="endereco" name="endereco" />
+              <label for="cidade">Cidade:</label>
+              <input type="text" id="cidade" name="cidade" />
+            </div>
+            <div class="column">
+              <label for="estado">Estado:</label>
+              <input type="text" id="estado" name="estado" />
+              <label for="cep">CEP:</label>
+              <input type="text" id="cep" name="cep" />
+              <label for="pais">País:</label>
+              <input type="text" id="pais" name="pais" />
+              <label for="telefone">Telefone:</label>
+              <input type="tel" id="telefone" name="telefone" />
+            </div>
+          </div>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Formulário com Informações de Pagamento -->
+    <div class="box">
+      <h2>Formulário com Informações de Pagamento</h2>
+      <form>
+        <fieldset>
+          <legend>Informações de Pagamento</legend>
+          <label for="cartao">Número do Cartão:</label>
+          <input type="text" id="cartao" name="cartao" placeholder="0000 0000 0000 0000" />
+          <label for="validade">Data de Validade:</label>
+          <input type="month" id="validade" name="validade" />
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" placeholder="123" />
+          <label for="nome-cartao">Nome no Cartão:</label>
+          <input type="text" id="nome-cartao" name="nome-cartao" />
+          <button type="submit">Pagar</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="HTML, listas, 2024" />
+  <meta name="description" content="Exemplo de uso de listas em HTML em 2024" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="2-listas-em-html.css" />
+  <title>Listas em HTML</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Listas em HTML</h1>
+
+    <!-- Listas Não Ordenadas -->
+    <div class="box">
+      <h2>Lista Não Ordenada</h2>
+      <ul>
+        <li>Item de lista não ordenada 1</li>
+        <li>Item de lista não ordenada 2</li>
+        <li>Item de lista não ordenada 3</li>
+        <li>
+          Item de lista não ordenada com subitens
+          <ul>
+            <li>Subitem 1</li>
+            <li>Subitem 2</li>
+            <li>Subitem 3</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Listas Ordenadas -->
+    <div class="box">
+      <h2>Lista Ordenada</h2>
+      <ol>
+        <li>Item de lista ordenada 1</li>
+        <li>Item de lista ordenada 2</li>
+        <li>Item de lista ordenada 3</li>
+        <li>
+          Item de lista ordenada com subitens
+          <ol>
+            <li>Subitem 1</li>
+            <li>Subitem 2</li>
+            <li>Subitem 3</li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Lista de Definição -->
+    <div class="box">
+      <h2>Lista de Definição</h2>
+      <dl>
+        <dt>Termo 1</dt>
+        <dd>Definição do termo 1</dd>
+        <dt>Termo 2</dt>
+        <dd>Definição do termo 2</dd>
+        <dt>Termo 3</dt>
+        <dd>Definição do termo 3</dd>
+      </dl>
+    </div>
+
+    <!-- Lista Aninhada -->
+    <div class="box">
+      <h2>Lista Aninhada</h2>
+      <ul class="nested-list">
+        <li>
+          Nível 1
+          <ul class="nested-list">
+            <li>
+              Nível 2
+              <ul class="nested-list">
+                <li>Nível 3</li>
+                <li>Nível 3</li>
+              </ul>
+            </li>
+            <li>Nível 2</li>
+          </ul>
+        </li>
+        <li>Nível 1</li>
+      </ul>
+    </div>
+
+    <!-- Lista de Checkbox -->
+    <div class="box">
+      <h2>Lista de Checkbox</h2>
+      <ul class="checkbox-list">
+        <li>
+          <input type="checkbox" id="item1" /><label for="item1">Item 1</label>
+        </li>
+        <li>
+          <input type="checkbox" id="item2" /><label for="item2">Item 2</label>
+        </li>
+        <li>
+          <input type="checkbox" id="item3" /><label for="item3">Item 3</label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Listas com Ícones -->
+    <div class="box">
+      <h2>Listas com Ícones</h2>
+      <h3>Lista Vertical com Ícones</h3>
+      <ul class="vertical-list">
+        <li><i class="fas fa-check-circle"></i>Item 1</li>
+        <li><i class="fas fa-times-circle"></i>Item 2</li>
+        <li><i class="fas fa-info-circle"></i>Item 3</li>
+        <li><i class="fas fa-exclamation-circle"></i>Item 4</li>
+        <li><i class="fas fa-question-circle"></i>Item 5</li>
+      </ul>
+
+      <h3>Lista Horizontal com Ícones</h3>
+      <ul class="horizontal-list">
+        <li><i class="fas fa-check-circle"></i>Item 1</li>
+        <li><i class="fas fa-times-circle"></i>Item 2</li>
+        <li><i class="fas fa-info-circle"></i>Item 3</li>
+        <li><i class="fas fa-exclamation-circle"></i>Item 4</li>
+        <li><i class="fas fa-question-circle"></i>Item 5</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

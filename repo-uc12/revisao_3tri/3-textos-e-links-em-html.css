@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;/* este atributo altera a fonte da familia arial, sans-serif*/    
+    margin: 0; /* este atributo altera a margin do site*/
+    padding: 0; /* este atributo altera o espaçamento da borda*/
+    background-color: #f0f0f0; /* este atributo altera a cor do fundo*/
+    box-sizing: border-box; /* este atributo adiciona ou não mais borda*/
+}
+.container{
+    width: 90%; /* este atributo altera o tamanho do container */
+    margin: 0 auto; /*este atributo altera a distancia entre os elementos do site, centralizando-os*/
+    background-color: #fff; /*este atributo altera o fundo do container*/
+    padding: 20px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /*este atributo adiciona uma sombra para o elemento*/
+    border-radius: 8px; /*este atributo deixa a borda mais arredondada*/
+}
+.card{
+    border: 1px solid #ddd; /*este atributo adiciona uma borda*/
+    border-radius: 8px; /*este atributo deixa a borda mais arredondada*/
+    padding: 10px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    margin: 10px 0; /* este atributo altera a margin do site*/
+    background-color: #fafafa; /*este atributo altera o fundo do card*/
+}
+.card img{
+    width: 100%; /*este atributo altera a largura do elemento, nesse caso a imagem*/
+    border-radius: 5px; /*este atributo deixa a borda mais arredondada*/
+}
+.column{
+    width: 48%; /*este atributo altera a largura do elemento, nesse caso da coluna*/
+
+}
+.two-columns{
+    display: flex; /*este atributo deixa os elementos de dentro flexiveis*/
+    justify-content: space-between; /*este atributo justifica o elemento, deixando o espaço igual entre os elementos nesse caso*/
+}
+.three-columns{
+    display: flex; /*este atributo deixa os elementos de dentro flexiveis*/
+    justify-content: space-between; /*este atributo justifica o elemento, deixando o espaço igual entre os elementos nesse caso*/
+}
+.column-third{
+    width: 32%; /*este atributo altera a largura do elemento, nesse caso da coluna*/
+}
+code{
+    background-color: #f9f9f9; /*este atributo altera o fundo do code*/
+    padding: 2px 4px; /*este atributo altera o espaçamento da borda ate os elementos*/
+    border-radius: 3px; /*este atributo deixa a borda mais arredondada*/
+}
+blockquote{
+    border-left: 4px solid #ddd; /* este atributo adiciona uma borda do lado esquerdo*/
+    margin: 10px 0; /* este atributo altera a margin do site*/
+    padding-left: 10px; padding: 10px; /*este atributo altera o espaçamento da borda e dos elemtos, mas apenas do lado esquerdo*/
+    color: #666; /*este atributo altera a cor do texto*/
+    font-style: italic; /*este atributo altera o estilo da fonte*/
+}
+.highlight{
+    background-color: #ffe0b3; /*este atributo altera a cor do fundo*/
+    padding: 5px; padding: 10px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    border-radius: 5px; /*este atributo deixa a borda mais arredondada*/
+}
+
