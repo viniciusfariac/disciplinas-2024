@@ -21,30 +21,30 @@ body{
     background-color: #fafafa; /*este atributo altera o fundo da box*/
 }
 figure{
-    margin: 0;
+    margin: 0; /*este atributo altera a margin do site*/
 }
 caption{
-    color: black;
-    margin: 0 0 5px 0;
-    font-size: 1.0rem;
-    font-weight: bold;
+    color: black; /*este atributo altera a cor do caption*/
+    margin: 0 0 5px 0; /*este atributo altera a margin do site*/
+    font-size: 1.0rem; /*este atributo altera a fonte do texto*/
+    font-weight: bold; /*este atributo altera a formatação do texto*/
 }
 table{
     border-spacing: 0;
     border-collapse: collapse;
-    text-align: left;
+    text-align: left; /*este atributo altera o alinhamento do texto para a esquerda*/
 }
 table  td {
-    border: 1px solid #ddd;
-    width: 700px;
-    height: 30px;
-    padding: 5px;
+    border: 1px solid #ddd; /*este atributo adiciona uma borda e uma cor a ela*/
+    width: 700px; /* este atributo altera a largura */
+    height: 30px; /* este atributo altera o tamanho */
+    padding: 5px; /*este atributo altera o espaçamento da borda e dos elemtos*/
    
 }
 table th{
-    width: 900px;
-    border: 1px solid #ddd;
-    background-color: #f0f0f0;
-    height: 30px;
-    padding: 5px;
+    width: 900px;   /* este atributo altera a largura */
+    border: 1px solid #ddd; /*este atributo adiciona uma borda e uma cor a ela*/
+    background-color: #f0f0f0; /*este atributo altera o fundo da tabela*/
+    height: 30px; /* este atributo altera o tamanho */
+    padding: 5px; /*este atributo altera o espaçamento da borda e dos elemtos*/
 }

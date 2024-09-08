@@ -24,17 +24,17 @@ body{
     background-color: #fafafa; /*este atributo altera o fundo da box*/
 }
 details{
-    border: 1px solid #000;
-    border: 8px;
+    border: 1px solid #000; /*este atributo adiciona uma borda e uma cor a ela*/
+    border: 8px; /*este atributo adiciona uma borda*/
 }
 details summary{
-    padding: 10px;
-    cursor: pointer;
-    background-color: #eee;
+    padding: 10px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    cursor: pointer; 
+    background-color: #eee; /*este atributo altera o fundo*/
     border-bottom: 1px solid #ddd;
 }
 details p{
-    padding: 10px;
+    padding: 10px; /*este atributo altera o espaçamento da borda e dos elemtos*/
     margin: 0;
 }
 mark{

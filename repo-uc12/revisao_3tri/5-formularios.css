@@ -24,37 +24,43 @@ body{
 }
 
 fieldset{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    display: flex; /*este atributo deixa os elementos de dentro flexiveis*/
+    flex-direction: column; /*este atrubyti da uma direção para a elementos flexiveis*/
+    gap: 5px; /*este atributo da um espaço igual para elementos flexiveis*/
+    border: 1px solid #ddd; /*este atributo adiciona uma borda e uma cor a ela*/
+    border-radius: 4px; /*este atributo arredonda a borda*/
 }
 legend{
-    font-weight: bold;
+    font-weight: bold; /*este atributo altera a formatação do texto*/
 }
 textarea, button{
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
+    padding: 10px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    border: 1px solid #ddd; /*este atributo adiciona uma borda e uma cor a ela*/
+    border-radius: 3px; /*este atributo arredonda a borda*/
+}
+select{
+    padding: 5px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    border-radius: 3px; /*este atributo arredonda a borda*/
 }
 input{
-    display: flex;
-    border: 1px solid #ddd;
-    padding: 7px;
-    border-radius: 3px;
+    border: 1px solid #ddd; /*este atributo adiciona uma borda e uma cor a ela*/
+    padding: 7px; /*este atributo altera o espaçamento da borda e dos elemtos*/
+    border-radius: 3px; /*este atributo arredonda a borda*/
+}
+#opcao1, #opcao2, #opcao3, #item1, #item2, #item3{
+    width: 82vw; /* este atributo altera a largura */
 }
 .column{
     width: 48%; /*este atributo altera a largura do elemento, nesse caso da coluna*/
-    overflow: hidden
+    overflow: hidden /*este atributo esconde os elementos que saem do site*/
 }
 .two-columns{
 
     display: flex; /*este atributo deixa os elementos de dentro flexiveis*/
     justify-content: space-between; /*este atributo justifica o elemento, deixando o espaço igual entre os elementos nesse caso*/
-    overflow: hidden
+    overflow: hidden /*este atributo esconde os elementos que saem do site*/
 }
 .column input{
-    width: 39vw;
-    overflow: hidden;
+    width: 39vw; /* este atributo altera a largura */
+    overflow: hidden; /*este atributo esconde os elementos que saem do site*/
 }
