@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando cor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Troca de cores</h1>
+        <button onclick="trocarCor('red')">vermelho</button>
+        <button onclick="trocarCor('green')">verde</button>
+        <button onclick="trocarCor('blue')">azul</button>
+        <button onclick="trocarCor('yellow')">amarelo</button>
+        <button onclick="corAleatoria()">aleatorio</button>
+        <br>
+        <input type="text" placeholder="Nome da cor ou hexa" class="input-color" >
+        <button onclick="corPersonalizada()">Aplicar cor</button>
+        <input type="color" onchange="trocarCor(this.value)">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
