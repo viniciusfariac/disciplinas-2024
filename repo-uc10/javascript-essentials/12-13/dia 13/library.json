@@ -1,0 +1,12 @@
+[
+  {
+    "title": "harry potter",
+    "author": "harry",
+    "isbn": "1818",
+    "year": 1900,
+    "genres": [
+      "a��o"
+    ],
+    "loanStatus": "available"
+  }
+]
