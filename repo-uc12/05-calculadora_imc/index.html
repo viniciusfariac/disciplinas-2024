@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js" defer></script>
+    <!-- tem que ser colocado o defer para chamar o codigo e depois o dinamismo do js, ou seja é como se o script estivesse no final do codigo -->
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="container">
+        <div id="calc-container">
+            <h2>Calculadora de IMC</h2>
+            <form action="" id="imc-form">
+                <div class="form-inputs">
+                    <div class="form-control">
+                        <label for="height">Altura:</label>
+                        <input 
+                        type="text" 
+                        name="height" 
+                        id="height" 
+                        placeholder="Exemplo 1.75" 
+                        required>
+                    </div>
+                    <div class="form-control">
+                        <label for="weight">Peso: </label>
+                        <input type="text" 
+                        name="weight" 
+                        id="weight" 
+                        placeholder="Exemplo 70,5">
+                    </div>
+                </div>
+                <div class="action-control">
+                    <button id="calc-btn">Calcular</button>
+                    <button id="clear-btn">limpar</button>
+                </div>
+            </form>
+        </div>
+        <div id="result-container" class="">
+            <p id="imc-number">Seu IMC: <span></span></p>
+            <p id="imc-info">Situação atual: <span></span></p>
+            <h3>Confira as classificações</h3>
+            <div id="imc-table">
+                <div class="table-header">
+                    <h4>imc</h4>
+                    <h4>classificações</h4>
+                    <h4>obesidade</h4>
+                </div>
+            </div>
+            <button id="back-btn">Voltar</button>
+        </div>
+    </div>
+</body>
+</html>
