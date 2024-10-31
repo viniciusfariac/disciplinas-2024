@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/deletButton"
         app:layout_constraintVertical_bias="0.523"
         tools:layout_editor_absoluteX="-3dp" />
 
@@ -82,7 +82,7 @@
         app:layout_constraintVertical_bias="0.256" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/deletButton"
         android:layout_width="174dp"
         android:layout_height="wrap_content"
         android:onClick="removeList"
@@ -95,7 +95,7 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/sobrenomeEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -109,7 +109,7 @@
         app:layout_constraintVertical_bias="0.045" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/telefoneEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -119,11 +119,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/sobrenomeEditText"
         app:layout_constraintVertical_bias="0.062" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
+        android:id="@+id/senhaEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -133,7 +133,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        app:layout_constraintTop_toBottomOf="@+id/telefoneEditText"
         app:layout_constraintVertical_bias="0.055" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
