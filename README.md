@@ -20,19 +20,9 @@ Este repositório organiza os materiais das disciplinas que estou cursando em 20
 - Dentro de cada pasta, você encontrará subpastas com projetos, avaliações e outros materiais de apoio.
 - Utilize o nome das pastas para identificar rapidamente o conteúdo da disciplina.
 
-## Contribuindo
-
-Se você deseja adicionar materiais, por favor siga estas etapas:
-1. Crie uma nova pasta para a disciplina ou unidade curricular.
-2. Organize os arquivos de forma clara e intuitiva.
-3. Faça um pull request para que possamos revisar e adicionar ao repositório.
-
 ## Tecnologias e Ferramentas
 
 - Git para controle de versão
 - Markdown para formatação de documentos
-- [Outras ferramentas que você usar, como editores de código ou ambientes de desenvolvimento]
-
-## Licença
-
-Este repositório está licenciado sob a [Nome da Licença].
+- VScode
+- Figma
